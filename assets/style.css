@@ -6,8 +6,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+/* header/nav */
 
 header {
     background-color: var(--primary-color);
@@ -28,7 +31,7 @@ header a {
 
 header nav {
     float: right;
-    margin: 7px 0;
+    margin: 7px 0; 
 }
 
 header nav ul li {
@@ -40,4 +43,58 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
     text-decoration: underline;
+}
+
+/* directory */
+
+.directory {
+    display:inline;
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 30px;
+}
+
+/* hero with subtitle section */
+
+.hero {
+    padding: 20px;
+}
+
+img {
+    width: 1750px;
+    height: 900px;
+    object-fit:cover;
+}
+
+
+section h3 {
+    float: right;
+    padding: 30px 30px
+}
+
+img {
+    object-fit: cover;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    padding: 40px 60px;
+}
+
+footer h2 {
+    display: inline;
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 30px;
+}
+
+footer nav {
+    float: right;
+    margin: 7px 0;
+}
+
+footer nav ul li {
+    display: inline;
+    text-align: center;
 }
