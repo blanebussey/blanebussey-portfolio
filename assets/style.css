@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #2e3650;
-    --secondary-color:#568fa9;
+    --primary-color: #d9dadc;
+    --secondary-color:#414243;
 }
 
 * {
@@ -48,7 +48,7 @@ header nav ul li a {
 /* directory */
 
 .directory {
-    display:inline;
+    display: block;
     color: var(--primary-color);
     margin: 0;
     font-size: 30px;
@@ -57,7 +57,7 @@ header nav ul li a {
 /* hero with subtitle section */
 
 .hero {
-    padding: 20px;
+    padding: 10px;
 }
 
 img {
@@ -66,10 +66,10 @@ img {
     object-fit:cover;
 }
 
-
 section h3 {
     float: right;
-    padding: 30px 30px
+    padding: 25px 25px;
+    display: inline;
 }
 
 img {
