@@ -18,7 +18,7 @@ header {
 
 header h1 {
 font-weight: bold;
-font-size: 36px;
+font-size: 40px;
 color: var(--secondary-color);
 margin: 0;
 display: inline;
@@ -31,7 +31,7 @@ header a {
 
 header nav {
     float: right;
-    margin: 7px 0; 
+    margin: 7px 0;
 }
 
 header nav ul li {
@@ -56,25 +56,32 @@ header nav ul li a {
 
 /* hero with subtitle section */
 
-.hero {
-    padding: 10px;
+.bellaraised {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-img {
-    width: 1750px;
+.hero img {
+    width: 100%;
     height: 900px;
     object-fit:cover;
 }
+.caption {
+    transform: translate(-45%, -110px);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 25px;
+}
 
-section h3 {
+.hero h3 {
     float: right;
     padding: 25px 25px;
     display: inline;
 }
 
-img {
-    object-fit: cover;
-}
+/* ABOUT ME SECTION */
+
+/* work section */
 
 /* footer section */
 footer {
