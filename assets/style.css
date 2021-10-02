@@ -45,15 +45,6 @@ header nav ul li a {
     text-decoration: underline;
 }
 
-/* directory */
-
-.directory {
-    display: block;
-    color: var(--primary-color);
-    margin: 0;
-    font-size: 30px;
-}
-
 /* hero with subtitle section */
 
 .bellaraised {
@@ -79,7 +70,7 @@ header nav ul li a {
     display: inline;
 }
 
-/* ABOUT ME SECTION */
+/* ABOUT ME SECTION 
 
 .intro {
     text-align:justify;
@@ -92,23 +83,29 @@ header nav ul li a {
 
 /* work section */
 
+.flexbox {
+    display: flex;
+    width: 100%; 
+    flex-wrap: wrap; 
+}
+
 #headerImage {
-    height: 20%;
-    width: 40%;
-    position: relative;
-    float: right;
+    align-self: center;
+    flex: 100%;
+    width: 100%;
+    padding: 0 700px 0 700px;
 }
+
 .gridImg {
-    display: inline-flex;
-    width: 600px;
-    float: right;
-    bottom: 5px;
+    padding: 10px 50px 10px 50px;
 }
+
+
+
 
 /* footer section */
 footer {
     width: 100%;
-    padding: 40px 60px;
 }
 
 footer h2 {
@@ -117,14 +114,27 @@ footer h2 {
     margin: 0;
     font-size: 30px;
 }
-
-footer nav {
-    float: right;
-    margin: 7px 0;
+.list {
+    width: 100vw;
 }
 
-footer nav ul li {
-    display: inline;
-    text-align: center;
-    margin: 5 px 0 15 px 0;
+.list ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+
+.list ul li {
+    justify-content: space-evenly;
+    width: 20vw;
+    font-size: 35px;
+}
+
+/* directory */
+
+.directory {
+    display: block;
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 30px;
 }
