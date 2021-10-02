@@ -92,9 +92,9 @@ header nav ul li a {
 
 /* work section */
 
-.work img {
-    display: flex;
-    width: 5%;
+.gridImg {
+    height: 2px;
+    width:  2px;
 }
 
 /* footer section */
