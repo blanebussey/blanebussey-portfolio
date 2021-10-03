@@ -120,7 +120,6 @@ footer address {
     margin-top: 50px;
 }
 
-
 /* directory */
 
 .directory {
@@ -129,3 +128,23 @@ footer address {
     margin: 0;
     font-size: 38px;
 }
+
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .bellaraised img {
+        width: 2%;
+        height: 100;
+    }
+    }
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero img {
+        width: 5%;
+        height: 200px;
+        }
+    }
