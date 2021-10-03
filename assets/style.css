@@ -113,30 +113,13 @@ header nav ul li a {
 /* footer section */
 footer {
     width: 100%;
-    background-color: var(--primary-color);
+}
+footer address {
+    font-size: 32px;
+    float: right;
+    margin-top: 50px;
 }
 
-footer h2 {
-    display: inline;
-    color: var(--primary-color);
-    margin: 0;
-    font-size: 30px;
-}
- 
-.list {
-    width: 100vw;  
-}   
-
-.list ul {
-    width: 100%;
-    display: flex;
-    list-style-type: none;
-}
-.list ul li {
-    justify-content: space-evenly;
-    width: 20vw;
-    font-size: 35px;
-}
 
 /* directory */
 
