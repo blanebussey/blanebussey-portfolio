@@ -2,12 +2,21 @@
     --primary-color: #d9dadc;
     --secondary-color:#414243;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*link styling */
+
+a:link {
+    color: var(--secondary-color);
+}
+
+a:hover {
+    font-weight: bold; 
 }
 
 /* header/nav */
@@ -18,7 +27,7 @@ header {
 
 header h1 {
 font-weight: bold;
-font-size: 40px;
+font-size: 50px;
 color: var(--secondary-color);
 margin: 0;
 display: inline;
@@ -41,7 +50,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 38px;
     text-decoration: underline;
 }
 
@@ -51,6 +60,7 @@ header nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 200px;
 }
 .hero img {
     width: 100%;
@@ -58,7 +68,7 @@ header nav ul li a {
     object-fit: cover;
 }
 .caption {
-    transform: translate(-45%, -110px);
+    transform: translate(-40%, -300px);
     color: var(--primary-color);
     background-color: var(--secondary-color);
     font-size: 25px;
@@ -70,15 +80,13 @@ header nav ul li a {
     display: inline;
 }
 
-/* ABOUT ME SECTION 
+/* ABOUT ME SECTION */
 
-.intro {
-    text-align:justify;
-    color: --secondary-color;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: var(--secondary-color)
+.intro p {
+    font-size: 30px;
+    padding: 50px 20px 50px 14%;
+    margin-bottom: 75px;
+    line-height: 1.5;
 }
 
 /* work section */
@@ -86,7 +94,8 @@ header nav ul li a {
 .flexbox {
     display: flex;
     width: 100%; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin-top: 100px; 
 }
 
 #headerImage {
@@ -97,15 +106,14 @@ header nav ul li a {
 }
 
 .gridImg {
-    padding: 10px 50px 10px 50px;
+    padding: 20px 10px 20px 200px;
+    height: 70%;
 }
-
-
-
 
 /* footer section */
 footer {
     width: 100%;
+    background-color: var(--primary-color);
 }
 
 footer h2 {
@@ -114,16 +122,16 @@ footer h2 {
     margin: 0;
     font-size: 30px;
 }
+ 
 .list {
-    width: 100vw;
-}
+    width: 100vw;  
+}   
 
 .list ul {
     width: 100%;
     display: flex;
     list-style-type: none;
 }
-
 .list ul li {
     justify-content: space-evenly;
     width: 20vw;
@@ -134,7 +142,7 @@ footer h2 {
 
 .directory {
     display: block;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin: 0;
-    font-size: 30px;
+    font-size: 38px;
 }
