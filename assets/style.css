@@ -125,6 +125,8 @@ header nav ul li a {
 /* footer section */
 footer {
     width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer address {
     font-size: 32px;
@@ -143,6 +145,7 @@ footer address {
 
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    /*i re-read the section, and asked bcs learning but unfortunately was unable to resolve this issue in the code /*
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER */
